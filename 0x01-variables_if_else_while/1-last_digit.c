@@ -2,27 +2,32 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *more headers goes there
  *main - prints whether last digit is greater
- *less than or equal
- *Return: Always 0 (success)
- *betty style doc for function main goes there
+ *
+ *Return:0 (success)
  **/
 int main(void)
 {
 	int n;
-	int L;
-	char str[] = "last digit of";
+	int lastnum;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	L = % 10
 
-	if (L > 5)
-		printf("%s %d is %d and is greater than 5\n", str, n, L);
-	else if (L == 0)
-		printf("%s %d is %d and is 0\n", str, n, L);
-	else if (L < 6)
-		printf("%s %d is %d and is less than 6 and not 0\n", str, n, L);
-		return (0);
+	/* Find last digit */
+	lastnum = n % 10;
+
+	if (lastnum > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastnum);
+	}
+	if (lastnum == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, lastnum);
+	}
+	if (lastnum < 6 && lastnum != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastnum);
+	}
+	return (0);
 }

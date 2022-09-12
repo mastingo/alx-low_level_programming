@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - entry point
  * Description - Prints the alphabets in lowercase and uppercase consecutively

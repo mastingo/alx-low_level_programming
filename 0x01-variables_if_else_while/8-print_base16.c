@@ -2,7 +2,6 @@
 
 /**
  * main - entry point
- *
  * Description - prints all the hexadecimal numbers in lowercase
  * Return 0
  */

@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * Description - prints all the hexadecimal numbers in lowercase
- * Return 0
+ * Return: 0
  */
 
 int main(void)

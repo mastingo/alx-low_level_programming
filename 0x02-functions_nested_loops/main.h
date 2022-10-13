@@ -1,27 +1,13 @@
-#include "main.h"
-
-/**
- * print_alphabet_x10 - check the code
- *
- * Description: Prints the alphabet in lowercase 10 times
- * followed by a new line
- *
- * Return: 0
- */
-
-void print_alphabet_x10(void)
-{
-	int alphabet;
-	int times;
-
-	for (times = 0; times < 10; times++)
-	{
-
-		for (alphabet = 97; alphabet <= 122; alphabet++)
-		{
-			_putchar(alphabet);
-		}
-		_putchar('\n');
-	}
-
-}
+int _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+void print_to_98(int n);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+int add(int, int);
+void times_table(void);
+void print_times_table(int n);

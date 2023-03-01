@@ -24,3 +24,11 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
 #endif /* MAIN_H */
+<<<<<<< HEAD
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+=======
+>>>>>>> f8d838412e48ed0dc4456085189ebbf50054a51c

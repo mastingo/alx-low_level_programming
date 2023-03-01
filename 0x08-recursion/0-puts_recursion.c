@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+#include <main.h>
+
+/*
+ * main - shows input
+ * 
+ * return : 0
+ */
+
+int main(void)
+{
+	void _puts_recursion("Puts with recursion\n");
+	return(0);
+=======
 #include "main.h"
 
 /**
@@ -14,4 +28,5 @@ void _puts_recursion(char *s)
 
 	else
 		_putchar('\n');
+>>>>>>> f8d838412e48ed0dc4456085189ebbf50054a51c
 }
